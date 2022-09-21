@@ -2,13 +2,13 @@ package sec01_selelctcontrolstatement.EX02_SwitchControlStatement;
 
 public class SwitchControlStatement {
 	public static void main(String[] args) {
-		// break°¡ Æ÷ÇÔµÇÁö ¾Ê¾ÒÀ» ¶§
+		// breakï¿½ï¿½ ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½ ï¿½Ê¾ï¿½ï¿½ï¿½ ï¿½ï¿½
 		int value1 = 2;
 		switch (value1) {
 		case 1:
 			System.out.println("A");
 		case 2:
-			System.out.println("B"); // Á¡ÇÁÇÑ ÈÄ °è¼Ó ½ÇÇà
+			System.out.println("B"); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		case 3:
 			System.out.println("C");
 		case 4:
@@ -16,14 +16,14 @@ public class SwitchControlStatement {
 		}
 		System.out.println();
 
-		// break°¡ Æ÷ÇÔµÅ ÀÖÀ» ¶§
+		// breakï¿½ï¿½ ï¿½ï¿½ï¿½Ôµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 		int value2 = 2;
 		switch (value2) {
 		case 1:
 			System.out.println("A");
 			break;
 		case 2:
-			System.out.println("B"); // ½ÇÇàÇÑ ÈÄ Å»Ãâ
+			System.out.println("B"); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Å»ï¿½ï¿½
 			break;
 		case 3:
 			System.out.println("C");
@@ -33,7 +33,7 @@ public class SwitchControlStatement {
 		}
 		System.out.println();
 
-		// if - else if - else ±¸¹®À¸·Î º¯È¯
+		// if - else if - else ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
 		if (value1 == 1) {
 			System.out.println("A");
 		} else if (value1 == 2) {
