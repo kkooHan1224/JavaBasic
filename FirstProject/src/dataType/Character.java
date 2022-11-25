@@ -7,5 +7,6 @@ public class Character {
 		String ch3 = "¼­Á¤ÇÑ";
 		System.out.println(ch1);
 		System.out.println(ch2);
+		System.out.println(ch3);
 	}
 }
