@@ -2,9 +2,9 @@ package dataType;
 
 public class Character {
 	public static void main(String[] args) {
-		char ch1 = '°¢';
+		char ch1 = 'ê°';
 		char ch2 = '\uac01';
-		String ch3 = "¼­Á¤ÇÑ";
+		String ch3 = "ì„œì •í•œ";
 		System.out.println(ch1);
 		System.out.println(ch2);
 		System.out.println(ch3);
