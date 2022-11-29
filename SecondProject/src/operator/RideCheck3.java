@@ -2,7 +2,7 @@ package operator;
 
 import java.util.Scanner;
 
-public class RideCheck2 {
+public class RideCheck3 {
 	public static void main(String[] args) {
 		//190cm 초과하면 놀이기구를 탈 수 없다.
 		
@@ -27,12 +27,14 @@ public class RideCheck2 {
 		scan.close();
 		
 		// if문
-		if (height > 190) outputMessage = "키가 190cm가 넘어 이 놀이기구를 탈 수 없습니다!";
-		else {
-			if (weight > 120) { 
+		if (height <= 190) { 
+			if (weight <= 120) { 
+				outputMessage = "어서오세요, 즐거운 시간되세요!";
+			} else {
 				outputMessage = "몸무게가 120kg이 넘어 이 놀이기구를 탈 수 없습니다!";
-			} else outputMessage = "어서오세요, 즐거운 시간되세요!";
-		}
+			}
+		} else outputMessage = "키가 190cm가 넘어 이 놀이기구를 탈 수 없습니다!";
+
 		
 		// 결과 출력
 		System.out.println(outputMessage);
