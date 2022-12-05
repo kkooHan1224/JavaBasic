@@ -1,27 +1,27 @@
 package dataType;
 
-// ½ºÄ³³Ê À¯Æ¿ ÀÓÆ÷Æ®
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Gugudan2 {
 	public static void main(String[] args) {
-		// Å°º¸µå ÀÔ·Â ÀåÄ¡ »ç¿ë µî·Ï(°ü·Ã °´Ã¼ »ı¼º)
 		Scanner scan = new Scanner(System.in);
 		
-		// »ç¿ë º¯¼ö ¼±¾ğ
 		int danNum;
 		
-		// ÀÔ·Â ¾È³»¹®±¸ Ãâ·Â
-		System.out.print("Ãâ·ÂÇÒ ´ÜÀÇ ¼ıÀÚ: ");
-		
-		// Á¤¼ö ÀÔ·ÂÇÏ¿© º¯¼ö¿¡ ´ëÀÔ
+		System.out.print("ì¶œë ¥í•  êµ¬êµ¬ë‹¨ì˜ ë‹¨ì„ ì…ë ¥í•˜ì„¸ìš”: ");
+		try {
+			danNum = scan.nextInt();
+		}
+		catch(InputMismatchException e) {
+//			System.out.println(e);
+			System.out.println("ì…ë ¥ ì˜¤ë¥˜,,, ì •ìˆ˜ë§Œ ì…ë ¥í•˜ì„¸ìš”!!");
+		} finally {
+			scan.close();
+		}
 		danNum = scan.nextInt();
 		
-		// ÀÔ·Â ÀåÄ¡ ´İ±â
-		scan.close();
-		
-		// ÀúÀåµÈ º¯¼ö¸¦ ÀÌ¿ëÇØ¼­ °á°ú Ãâ·Â
-		System.out.println(danNum + "´Ü");
+		System.out.println(danNum + "ë‹¨");
 		System.out.println("--------------");
 		
 		System.out.printf("%dX%d=%2d\n", danNum, 1, danNum*1);
