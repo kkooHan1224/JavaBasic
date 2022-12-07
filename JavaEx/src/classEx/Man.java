@@ -3,8 +3,25 @@ package classEx;
 public class Man {
 	String name;
 	int age;
-	boolean Married;
+	boolean married;
 	int child;
+	
+	public Man() {};
+	public Man(int age) {
+		this.age = age;
+	}
+	public Man(int age, String name) {
+		this.age = age;
+		this.name = name;
+	}	
+	
+	public void setAge(int age, String name, boolean married, int child) {
+		this.age = age;
+		this.name = name;
+		this.married = married;
+		this.child = child;
+				
+	}
 	
 	public String getName() {
 		return name;
@@ -19,10 +36,10 @@ public class Man {
 		this.age = age;
 	}
 	public boolean isMarried() {
-		return Married;
+		return married;
 	}
 	public void setMarried(boolean married) {
-		Married = married;
+		this.married = married;
 	}
 	public int getChild() {
 		return child;
