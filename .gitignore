@@ -2,3 +2,14 @@ ByteCodeFiles/bin/sec01_basicsyntax/EX02_ByteCodeFiles/C.class
 *.class
 /.metadata/
 FirstProject/
+Servers/
+*.name
+*.container
+*.MF
+*.component
+*.prefs
+*.project
+*.jsdtscope
+*.classpath
+myappEx/.settings/org.eclipse.wst.common.project.facet.core.xml
+myapp/.settings/org.eclipse.wst.common.project.facet.core.xml
