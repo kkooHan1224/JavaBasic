@@ -19,4 +19,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ExampleServlet01</display-name>
+    <servlet-name>ExampleServlet01</servlet-name>
+    <servlet-class>ch08.ExampleServlet01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExampleServlet01</servlet-name>
+    <url-pattern>/ch08/exampleServlet01</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ExampleServlet02</display-name>
+    <servlet-name>ExampleServlet02</servlet-name>
+    <servlet-class>ch08.ExampleServlet02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExampleServlet02</servlet-name>
+    <url-pattern>/ch08/exampleServlet02</url-pattern>
+  </servlet-mapping>
 </web-app>
