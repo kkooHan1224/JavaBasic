@@ -1,6 +1,7 @@
 package sec01_typeofexception.EX01_CheckedException;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 class A implements Cloneable {
@@ -9,7 +10,7 @@ class A implements Cloneable {
 	}
 }
 public class CheckedException {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException, ClassNotFoundException, IOException, CloneNotSupportedException {
 		
 		Thread.sleep(1000);
 		
