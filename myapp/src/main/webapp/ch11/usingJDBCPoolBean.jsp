@@ -8,7 +8,7 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body bgcolor="#FFFFCC">
-	<h2>Bean를 사용한 데이터베이스 연동 예제입니다.</h2><br/>
+	<h2>Bean과 커넥션 풀을 사용한 데이터베이스 연동 예제입니다.</h2><br/>
 	<h3>회원정보</h3>
 	<table bordercolor="#0000ff" border="1">
 		<tr>

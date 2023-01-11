@@ -5,8 +5,8 @@ import java.sql.*;
 
 public class RegisterMgr {
 	private final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-	private final String JDBC_URL = "jdbc:mysql://localhost:3307/mydb";
-	private final String USER = "root";
+	private final String JDBC_URL = "jdbc:mysql://127.0.0.1:3307/mydb";
+	private final String USER = "dev01";
 	private final String PASS = "1234";
 
 	public RegisterMgr() {
@@ -40,6 +40,7 @@ public class RegisterMgr {
 						regBean.setZipcode (rs.getString("zipcode"));
 						regBean.setAddress (rs.getString("address"));
 						regBean.setJob (rs.getString("job"));
+						regBean.setNation (rs.getString("nation"));
 						vlist.add(regBean);
 				}
 			} catch (Exception ex) {

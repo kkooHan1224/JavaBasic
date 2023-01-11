@@ -12,6 +12,8 @@ public class RegisterBean {
 	private String zipcode;
 	private String address;
 	private String job;
+	private String nation;
+	
 	
 	
 	public String getId() {
@@ -73,5 +75,11 @@ public class RegisterBean {
 	}
 	public void setJob(String job) {
 		this.job = job;
+	}
+	public String getNation() {
+		return nation;
+	}
+	public void setNation(String nation) {
+		this.nation = nation;
 	}
 }
